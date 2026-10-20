@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>Upload a Document</h1>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="document">Choose a PDF:</label>
+        <input
+            id="document"
+            name="document"
+            type="file"
+            accept=".pdf,application/pdf"
+            required
+        >
+        <br><br>
+
+        <button type="submit">Upload File</button>
+    </form>
+
+    <p>A server is required to receive and store uploaded files.</p>
+</body>
+</html>
